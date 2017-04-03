@@ -1,0 +1,32 @@
+body {
+  font-family: Helvetica;
+  background: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 36px;
+}
+
+a {
+  color: #f1f1f1;
+}
