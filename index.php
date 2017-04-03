@@ -46,7 +46,7 @@ $price = $dolar / $bolivar;
 <body>
 <div class="container">
   <section class="content">
-    <h1>Precio del Dolar</h1>
+    <h1>Precio del Dólar</h1>
     <h2 class="price"><?php echo number_format($price, 2); ?> BsF.</h2>
     <small>Source: <a href="https://dolar.wilkinsonpc.com.co/divisas/bolivar-cucuta.html">wilkinsonpc.com</a></small>
   </section>
