@@ -38,15 +38,19 @@ $price = $dolar / $bolivar;
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dolar</title>
-
-<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Dolar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+<link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 <div class="container">
   <section class="content">
-    <h1>Precio del Dólar</h1>
+    <h1>Precio del D&oacute;lar</h1>
     <h2 class="price"><?php echo number_format($price, 2); ?> BsF.</h2>
     <small>Source: <a href="https://dolar.wilkinsonpc.com.co/divisas/bolivar-cucuta.html">wilkinsonpc.com</a></small>
   </section>
